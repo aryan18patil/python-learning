@@ -13,7 +13,7 @@ while status == "":
         total = total + n
     print("The total electicity used in 5 days = ", total, "kWh")
     avg = total / 5
-    print("The avaerage electicity used in 5 days = ", avg, "kWh")
+    print("The average electicity used in 5 days = ", avg, "kWh")
 
     if total <= 100:
         print("Under budget: No extra charges.")
