@@ -20,7 +20,7 @@ while status == "":
     elif total > 100 and total <= 150:
         print("Warning: Nearing maximum capacity.")
     else:
-        penalty = (7) * ((total - 100) // 10)
+        penalty = (10) * ((total - 100) // 10)
         print(f"Penalty Amount = $ {penalty}")
 
     status = input("Type 'quit' to exit, or press Enter to process another flat: ")
